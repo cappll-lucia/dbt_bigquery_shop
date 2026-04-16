@@ -1,0 +1,61 @@
+[0m15:33:24.431198 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b59010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112c8a0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112c89f90>]}
+
+
+============================== 15:33:24.446063 | 131d1384-40c8-44e9-b7cb-df65118dc949 ==============================
+[0m15:33:24.446063 [info ] [MainThread]: Running with dbt=1.11.8
+[0m15:33:24.446352 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'static_parser': 'True', 'debug': 'False', 'indirect_selection': 'eager', 'profiles_dir': '/Users/lucia/.dbt', 'fail_fast': 'False', 'log_cache_events': 'False', 'log_format': 'default', 'use_experimental_parser': 'False', 'introspect': 'True', 'no_print': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'printer_width': '80', 'warn_error': 'None', 'target_path': 'None', 'invocation_command': 'dbt init dbt_shop', 'quiet': 'False'}
+[0m15:33:24.475203 [debug] [MainThread]: Starter project path: /Users/lucia/Dev/lucia_dev/dbt_shop_eg/.venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m15:33:24.478120 [info ] [MainThread]: 
+Your new dbt project "dbt_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:33:24.478262 [info ] [MainThread]: Setting up your profile.
+[0m15:38:51.891799 [info ] [MainThread]: Profile dbt_shop written to /Users/lucia/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:38:51.899408 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 327.48193, "process_in_blocks": "0", "process_kernel_time": 0.597691, "process_mem_max_rss": "283967488", "process_out_blocks": "0", "process_user_time": 2.462208}
+[0m15:38:51.901086 [debug] [MainThread]: Command `dbt init` succeeded at 15:38:51.900926 after 327.48 seconds
+[0m15:38:51.901687 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x169471810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110899b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x169441ae0>]}
+[0m15:38:51.902131 [debug] [MainThread]: Flushing usage events
+[0m15:38:52.853244 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:53:27.467655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b91160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b2fb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b2fd90>]}
+
+
+============================== 15:53:27.469816 | b0bed346-cbee-4900-aed1-80a2d8d9d594 ==============================
+[0m15:53:27.469816 [info ] [MainThread]: Running with dbt=1.11.8
+[0m15:53:27.470077 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'empty': 'None', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'indirect_selection': 'eager', 'invocation_command': 'dbt seed', 'use_colors': 'True', 'quiet': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'write_json': 'True', 'use_experimental_parser': 'False', 'target_path': 'None', 'introspect': 'True', 'version_check': 'True', 'profiles_dir': '/Users/lucia/.dbt', 'partial_parse': 'True', 'log_path': 'logs', 'log_format': 'default', 'debug': 'False'}
+[0m15:53:27.470332 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/lucia/Dev/lucia_dev/dbt_shop_eg/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:53:27.471411 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.0306905, "process_in_blocks": "0", "process_kernel_time": 0.102696, "process_mem_max_rss": "112754688", "process_out_blocks": "0", "process_user_time": 0.475319}
+[0m15:53:27.471588 [debug] [MainThread]: Command `dbt seed` failed at 15:53:27.471555 after 0.03 seconds
+[0m15:53:27.471707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b7b360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b6bad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c10160>]}
+[0m15:53:27.471811 [debug] [MainThread]: Flushing usage events
+[0m15:53:28.211228 [debug] [MainThread]: An error was encountered while trying to flush usage events
+{"data":{"log_version":3,"version":"=2.0.0-preview.171"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019d97a6-14a4-7530-b61d-d6eb9be3e869","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.171","name":"MainReportVersion","pid":86102,"thread":"tokio-rt-worker","ts":"2026-04-16T18:55:37.136684Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/Users/lucia/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019d97a6-14a4-7530-b61d-d6eb9be3e869","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":86102,"thread":"tokio-rt-worker","ts":"2026-04-16T18:55:37.136696Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019d97a6-14a4-7530-b61d-d6eb9be3e869","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":86102,"thread":"tokio-rt-worker","ts":"2026-04-16T18:55:37.138856Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019d97a6-14a4-7530-b61d-d6eb9be3e869","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":86102,"thread":"tokio-rt-worker","ts":"2026-04-16T18:55:37.139779Z"}}
+{"data":{"completed_at":"2026-04-16T18:55:39.001144Z","elapsed":1.8656920194625854,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019d97a6-14a4-7530-b61d-d6eb9be3e869","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [1.9s]","name":"CommandCompleted","pid":86102,"thread":"tokio-rt-worker","ts":"2026-04-16T18:55:39.003938Z"}}
+{"data":{"log_version":3,"version":"=2.0.0-preview.171"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019d97b6-c39d-7241-a3a8-c4f6160461b9","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.171","name":"MainReportVersion","pid":90724,"thread":"tokio-rt-worker","ts":"2026-04-16T19:13:50.494318Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/Users/lucia/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019d97b6-c39d-7241-a3a8-c4f6160461b9","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":90724,"thread":"tokio-rt-worker","ts":"2026-04-16T19:13:50.494331Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019d97b6-c39d-7241-a3a8-c4f6160461b9","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":90724,"thread":"tokio-rt-worker","ts":"2026-04-16T19:13:50.494452Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019d97b6-c39d-7241-a3a8-c4f6160461b9","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":90724,"thread":"tokio-rt-worker","ts":"2026-04-16T19:13:50.494509Z"}}
+{"data":{"completed_at":"2026-04-16T19:13:51.206415Z","elapsed":0.7121919989585876,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019d97b6-c39d-7241-a3a8-c4f6160461b9","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [712ms]","name":"CommandCompleted","pid":90724,"thread":"tokio-rt-worker","ts":"2026-04-16T19:13:51.206662Z"}}
+{"data":{"log_version":3,"version":"=2.0.0-preview.172"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019d97d4-7689-7ad1-ac49-ab6f857254fd","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.172","name":"MainReportVersion","pid":3441,"thread":"tokio-rt-worker","ts":"2026-04-16T19:46:16.851160Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"/Users/lucia/.local/bin/dbt license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019d97d4-7689-7ad1-ac49-ab6f857254fd","level":"debug","msg":"running dbt-fusion with argumets {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":3441,"thread":"tokio-rt-worker","ts":"2026-04-16T19:46:16.851181Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019d97d4-7689-7ad1-ac49-ab6f857254fd","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":3441,"thread":"tokio-rt-worker","ts":"2026-04-16T19:46:16.853174Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019d97d4-7689-7ad1-ac49-ab6f857254fd","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":3441,"thread":"tokio-rt-worker","ts":"2026-04-16T19:46:16.853746Z"}}
+{"data":{"completed_at":"2026-04-16T19:46:17.555330Z","elapsed":0.7052159905433655,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019d97d4-7689-7ad1-ac49-ab6f857254fd","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [705ms]","name":"CommandCompleted","pid":3441,"thread":"tokio-rt-worker","ts":"2026-04-16T19:46:17.555675Z"}}

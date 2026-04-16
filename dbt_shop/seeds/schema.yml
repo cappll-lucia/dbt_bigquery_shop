@@ -1,0 +1,18 @@
+version: 2
+
+seeds:
+  - name: sourceA_order_items
+    config:
+      column_types:
+        unit_price: FLOAT64
+
+  - name: sourceB_products
+    config:
+      column_types:
+        unit_price: FLOAT64
+        cost_price: FLOAT64
+
+  - name: sourceA_orders
+    config:
+      column_types:
+        discount_pct: FLOAT64

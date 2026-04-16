@@ -1,0 +1,8 @@
+product_id,product_name,category,unit_price,cost_price,stock_qty,supplier_id,is_active
+PROD-01,Campera de cuero negra,outerwear,15000.00,7000.00,40,SUP-A,true
+PROD-02,Jeans slim fit azul,bottoms,8500.00,3200.00,120,SUP-B,true
+PROD-03,Remera básica blanca,tops,3200.00,1100.00,200,SUP-B,true
+PROD-04,Vestido floral verano,dresses,11200.00,4800.00,60,SUP-A,true
+PROD-05,Zapatillas urbanas blancas,footwear,22000.00,10000.00,35,SUP-C,true
+PROD-06,Buzo oversize gris,tops,9800.00,4200.00,90,SUP-B,true
+PROD-07,Bermuda cargo verde,bottoms,6700.00,2800.00,75,SUP-C,false
