@@ -1,0 +1,7 @@
+version: 2
+
+sources: 
+  - name: sourceB_raw
+    schema: raw
+    tables:
+      - name: sourceB__products

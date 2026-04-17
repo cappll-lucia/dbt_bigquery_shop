@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.sql": "jinja-sql"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "innoverio.vscode-dbt-power-user"
+    },
+    "[jinja-sql]": {
+        "editor.defaultFormatter": "innoverio.vscode-dbt-power-user"
+    }
+}

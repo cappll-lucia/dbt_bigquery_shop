@@ -1,0 +1,9 @@
+version: 2
+
+sources: 
+  - name: sourceA_raw
+    schema: raw
+    tables:
+      - name: sourceA__customers
+      - name: sourceA__orders
+      - name: sourceA__order_items
