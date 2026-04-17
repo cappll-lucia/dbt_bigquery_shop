@@ -1,4 +1,4 @@
-product_id,product_name,category,unit_price,cost_price,stock_qty,supplier_id,is_active
+id,product_name,category,unit_price,cost_price,stock_qty,supplier_id,is_active
 PROD-01,Campera de cuero negra,outerwear,15000.00,7000.00,40,SUP-A,true
 PROD-02,Jeans slim fit azul,bottoms,8500.00,3200.00,120,SUP-B,true
 PROD-03,Remera básica blanca,tops,3200.00,1100.00,200,SUP-B,true

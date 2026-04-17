@@ -1,4 +1,4 @@
-customer_id,first_name,last_name,email,country,created_at,is_active
+id,first_name,last_name,email,country,created_at,is_active
 CUST-01,Valentina,Russo,v.russo@mail.com,AR,2023-03-10 00:00:00 UTC,true
 CUST-02,Martín,Gómez,mgomez@mail.com,AR,2023-05-22 00:00:00 UTC,true
 CUST-03,Sofía,Herrera,s.herrera@mail.com,CL,2023-06-01 00:00:00 UTC,true
